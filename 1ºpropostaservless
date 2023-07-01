@@ -1,0 +1,14 @@
+# Clone o repositório do expert
+git clone https://github.com/nomedoexpert/meu-projeto.git
+
+# Acesse o diretório do projeto
+cd meu-projeto
+
+# Instale as dependências
+npm install
+
+# Faça as configurações iniciais
+aws configure
+
+# Implante a infraestrutura na nuvem
+serverless deploy -v
